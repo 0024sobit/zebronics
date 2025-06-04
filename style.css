@@ -170,6 +170,7 @@ body{
     text-align: center;
     place-self: start center;
     margin-top: 2px;
+    color: white;
 }
 .pone{
     opacity: 1;
@@ -240,18 +241,11 @@ body{
     transform: translateX(-100%);
   }
 }
-
-
 .partthree{
     width: 100%;
     height: 100%;
-
 }
 .threepad{
-    /* padding-block-start:calc(max(0, min(max(calc(0 - 0), -1 * calc(0 - 0)), 1)) *  2.5rem);
-    padding-block-end: 2.5rem;
-    padding-inline-start: calc(max(1.25rem, 50% - 800px) / 2);
-    padding-inline-end: calc(max(1.25rem, 50% - 800px) / 2); */
     padding: 0px 20px 43px;
 }
 .sectionstack{
@@ -787,17 +781,18 @@ small{
     position: relative;
     display: grid;
     gap: 20px;
-    /* padding: 0 20px; */
 }
-/* .tenboxone .tenimg{
-    margin-inline-start: calc(-1 * calc(((100vw - 15px) - min((100vw - 15px) - 1.25rem * 2, 1600px)) / 2));
-    margin-inline-end: calc(-1 * calc(((100vw - 20px) - min((100vw - 15px) - 1.25rem * 2, 1600px)) / 2));
-
-} */
+ .tetwo{
+    width: 100%;
+ }
+ .tethree{
+    width: 100%;
+ }
 .tenimg{
     width: 100%;
     height: 100%;
     border-radius: 0.625rem;
+    object-fit: cover;
 }
 .tefour{
     height: 150px;
@@ -1388,5 +1383,79 @@ footer{
     .articlepad{
         padding-top: 27px;
     }
+    .sixscroll {
+        margin-inline-end: -5%;
+    }
+    .productpara{
+        padding-top: 12px;
+        padding-bottom: 20px;
+    }
+    .vediosec{
+        padding-top: 0;
+    }
+    .vediopad{
+        padding-top: 10px;
+        padding-bottom: 18px;
+    }
+    .smartview{
+        margin-top: -1px;
+    }
+    .smartpad{
+        padding-bottom: 16px;
+    }
+    .sevenimg img{
+        aspect-ratio: 127.47 / 155.05;
+    }
+    .sevenpad{
+        padding-block-end: 40px;
+    }
+    .tenpara{
+        top: 86%;
+        left: 5.3%;
+    }
+    .tetwo .tenpara{
+        left: 8.5%;
+        top: 73.5%;
+    }
+    .tethree .tenpara{
+        left: 8.5%;
+        top: 73.5%;
+    }
+    .tefour .tenpara{
+        left: 4.5%;
+        top: 73.5%;
+    }
+    .bold{
+        margin-top: 13px;
+    }
+    .addpad{
+        padding-bottom: 32px;
+    }
+    .thirdmain{
+        padding-bottom: 40px;
+    }
+    .thirdscroll{
+        margin-inline-end: -5%;
+    }
+    .thirteenpad{
+        padding-bottom: 27px;
+    }
+    .pressscrol{
+        margin-inline-end: -5%;
+    }
+    .presspad{
+        padding-bottom: 37px;
+    }
+    .qone a{
+        margin-left: 3px;
+    }
+    .footergrid{
+        padding-top: 47px;
+    }
+    .formcontrol{
+        margin-top: -16px;
+    }
+    .socialmain{
+        gap: 33px;
+    }
 }
-    

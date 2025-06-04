@@ -15,7 +15,7 @@ if (fiveScrollContainer && fiveScrollLine) {
 }
 
 
-
+'ss d  f sdfd'
 
 
 window.addEventListener('scroll', checkScroll);
@@ -121,7 +121,7 @@ function vedioData(products) {
           <div class="productimg">
             <img src="${product.image}" alt="">
           </div>
-          <div class="productpara">
+          <div class="productpara vediopad">
             <div class="nameprice">
               <span class="pname">${product.name}</span>
               <span class="pprice">${product.price}</span>
@@ -226,7 +226,7 @@ function smartData(products) {
           <div class="productimg">
             <img src="${product.image}" alt="">
           </div>
-          <div class="productpara">
+          <div class="productpara smartpad">
             <div class="nameprice">
               <span class="pname">${product.name}</span>
               <span class="pprice">${product.price}</span>
