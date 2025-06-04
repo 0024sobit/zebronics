@@ -16,6 +16,8 @@ if (fiveScrollContainer && fiveScrollLine) {
 
 
 
+
+
 window.addEventListener('scroll', checkScroll);
 window.addEventListener('load', checkScroll);
 
