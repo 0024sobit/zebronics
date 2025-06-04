@@ -1,0 +1,86 @@
+[
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-duke3-black-pic1.png?v=1745824297&width=2000",
+        "name"      : "Zeb Silencio 111",
+        "price"     : "₹ 8,999.00",
+        "product"   : "Wireless Headphones",
+        "features"  : "50db Hybrid ANC | ENC | Rapid Charging | Gaming Mode"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Jukebar-10000-pic-1.jpg?v=1744714758&width=2000",
+        "name"      : "Zeb Juke Bar 10000",
+        "price"     : "₹ 129,999.00",
+        "product"   : "Soundbar",
+        "features"  : "1100W | Dolby Atmos | dtsX | 7.2.4 Channel"
+    },
+        {
+        "image"     : "//zebronics.com/cdn/shop/files/ZEB-C4PCAT6CU-305M-OD-Prime-pic-1.jpg?v=1748501473&width=2000",
+        "name"      : "Zeb C4PCAT6CU-305M-OD Prime",
+        "price"     : "₹ 13,999.00",
+        "product"   : "CAT 6 Cables",
+        "features"  : "CAT 6 | 305 meter | PVC Insulation"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-EnergiTank-20MR1-Midnight-pic-1.jpg?v=1743502228&width=2000",
+        "name"      : "Zeb EnergiTank 20MR1",
+        "price"     : "₹ 3,099.00",
+        "product"   : "Above 10000 MAh",
+        "features"  : "22.5W Output | 20000mAH | Over Charge Protection | Rapid Charging"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Sheer-plus-pic1.jpg?v=1743161872&width=2000",
+        "name"      : "Zeb Sheer plus",
+        "price"     : "₹ 1,799.00",
+        "product"   : "Wireless Mouse",
+        "features"  : "Dual Mode Connectivity | High Precision | upto 3200 DPI | Silent operation"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Jukebar3910-pic1.jpg?v=1742026212&width=2000",
+        "name"      : "Zeb Juke bar 3910",
+        "price"     : "₹ 11,999.00",
+        "product"   : "Soundbar",
+        "features"  : "120W | LED indicator | 2.1 ch | Multiconnectivity"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-MaxLinkPro-pic1.jpg?v=1741345703&width=2000",
+        "name"      : "Zeb Max link Pro",
+        "price"     : "₹ 4,199.00",
+        "product"   : "Gamepad",
+        "features"  : "Dual mode | upto 10h backup | 6 axis gyro sensor | RGB Light"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Dent-L20-black-pic1.jpg?v=1745300188&width=2000",
+        "name"      : "Zeb Dent L20",
+        "price"     : "₹ 1,999.00",
+        "product"   : "Electric Toothbrush",
+        "features"  : "Sonic Technology | Upto 30000 VPM | 3 Modes | Smart Quad Timer"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-SonicPod22-blue-pic1.jpg?v=1740047394&width=2000",
+        "name"      : "Zeb Sonic Pod 22",
+        "price"     : "₹ 2,299.00",
+        "product"   : "Wireless Speakers",
+        "features"  : "8W RMS Output | Upto 15h Backup | Passive Radiator | Fabric Finish with Carry Loop"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Glow-box8B-pic1.jpg?v=1739447013&width=2000",
+        "name"      : "Zeb Glow Box 8B",
+        "price"     : "₹ 29,999.00",
+        "product"   : "DJ Speakers",
+        "features"  : "160W RMS Output | Upto 11h backup | LED lights | Karaoke/Wireless mic "
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-PixaplayPro500-pic1.jpg?v=1738755303&width=2000",
+        "name"      : "Zeb PixaPlay Pro 500",
+        "price"     : "₹ 149,999.00",
+        "product"   : "LED Projector",
+        "features"  : "Ultra Short Throw Projector | 12500 Lumens | Air Mouse | FHD 1080p (Native)"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Pixaplay63-pic1.jpg?v=1738669879&width=2000",
+        "name"      : "Zeb PixaPlay 63",
+        "price"     : "₹ 20,999.00",
+        "product"   : "LED Projector",
+        "features"  : " FHD 1080p (Native) |Smart Projector | 5000 Lumens | 200° Tilt Mechanism"
+    }
+]

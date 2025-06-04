@@ -1,0 +1,65 @@
+[
+        {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Raga-S1-pic1_823e526d-1201-4eca-adca-5455d0e47b8e.jpg?v=1746857988&width=2000",
+        "name"      : "Zeb Raga S1",
+        "price"     : "₹ 1,999.00",
+        "product"   : "Wireless Neckband Earphone",
+        "features"  : "Up to 70h* backup | Rapid charging | Splash Proof | Environmental Noise cancellation"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Duke2Pro-Black-pic-1.jpg?v=1744881657&width=2000",
+        "name"      : "Zeb Duke 2 Pro",
+        "price"     : "₹ 2,999.00",
+        "product"   : "Wireless Headphones",
+        "features"  : "Upto 50h* backup | 40mm drivers | Rapid Charging | Gaming mode"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Glow-Box-12B-pic1.jpg?v=1739443843&width=2000",
+        "name"      : "Zeb Glow Box 12B",
+        "price"     : "₹ 44,999.00",
+        "product"   : "DJ Speakers",
+        "features"  : "240W RMS Output | BT v5.0 | Up to 11h backup | LED Lights | UHF Wireless Mic"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Raga-F1-pic-1_5863e017-f2a3-46e1-942f-b021d2e4192c.jpg?v=1744797351&width=2000",
+        "name"      : "Zeb Raga F1",
+        "price"     : "₹ 3,999.00",
+        "product"   : "Wireless Neckband Earphone",
+        "features"  : "40h backup | Gaming mode | Dual EQ | ENC"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-PodsK3-black-pic1_8f4bd428-5fdd-40b5-9cb0-a7689383c385.jpg?v=1743509458&width=2000",
+        "name"      : "Zeb Pods K3",
+        "price"     : "₹ 4,199.00",
+        "product"   : "Wireless Earbuds",
+        "features"  : "Upto 40h Battery Life | Voice Assistant Support  | Dual EQ modes | 10mm drivers"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Dukeplus-Black-pic-1_71ed3218-a739-4238-b721-1fe92334c3f0.jpg?v=1723786258&width=2000",
+        "name"      : "Zeb Duke Plus",
+        "price"     : "₹ 7,999.00",
+        "product"   : "Wireless Headphones",
+        "features"  : "70h | BTv5.4 | Air noise cancellation (ANC) | Rapid Charging"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Jukebar-9900-pic1.jpg?v=1710999191&width=1200",
+        "name"      : "Zeb Juke bar 9900",
+        "price"     : "₹ 84,999.00",
+        "product"   : "Soundbar",
+        "features"  : "725W | Dolby Atmos | dts X | 5.2.4Ch surround sound"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Raga-F2-blue-pic1_5e0d68b8-837c-46b9-8e3f-868798ee3d34.jpg?v=1747203595&width=2000",
+        "name"      : "Zeb Raga F2",
+        "price"     : "₹ 4,999.00",
+        "product"   : "Wireless Neckband Earphone",
+        "features"  : "22h backup | BT v5.4 | Gaming mode | Dual EQ | ENC"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Paradise-Neo-Pic-1_2.jpg?v=1747918632&width=2000",
+        "name"      : "Zeb Paradise Neo",
+        "price"     : "₹ 4,999.00",
+        "product"   : "Wireless Headphones",
+        "features"  : "50h | BTv5.4 | Environmental noise cancellation (ENC) | Rapid Charging"
+    }
+]

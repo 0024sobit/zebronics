@@ -1,0 +1,40 @@
+[
+        {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Mercury-100-pic1.jpg?v=1743764323&width=2000",
+        "name"      : "Zeb Mercury 10",
+        "price"     : "From ₹ 6,799.00",
+        "product"   : "Gaming Cabinets",
+        "features"  : "AIO Cooler | Glassy Outlook | Cooling fans | Dust filter"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Sheer-10-lightgreen-pic1.jpg?v=1743848095&width=2000",
+        "name"      : "Zeb Sheer 10",
+        "price"     : "₹ 1,299.00",
+        "product"   : "Wireless Mouse",
+        "features"  : "Dual Mode | Built-In Rechargeable Battery | Silent Operation"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Companion203-white-pic1.jpg?v=1747308170&width=2000",
+        "name"      : "Zeb Companion 203",
+        "price"     : "From ₹ 1,899.00",
+        "product"   : "Wireless Keyboard",
+        "features"  : "High Precision | Advanced Optical Sensor Technology | Silent Operation"
+    },
+
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-N25A-pic1_1a655edf-2c7e-4f87-8272-9d3ea9f23f4b.jpg?v=1728545060&width=2000",
+        "name"      : "Zeb N25A",
+        "price"     : "₹ 23,999.00",
+        "product"   : "Gaming Monitors",
+        "features"  : "180Hz | 1ms | 1080p | Bezel-Less Design"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-PSSD256-pic1.jpg?v=1682588848&width=1200",
+        "name"      : "Zeb PSSD256",
+        "price"     : "₹ 8,199.00",
+        "product"   : "SSD",
+        "features"  : "256 GB | S.M.A.R.T | Sleek Design | Shock Proof"
+    }
+
+
+]

@@ -1,0 +1,45 @@
+[
+        {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Dent-L20-black-pic1.jpg?v=1745300188&width=2000",
+        "name"      : "Zeb Dent L20",
+        "price"     : "₹ 1,999.00",
+        "product"   : "Electric Toothbrush",
+        "features"  : "Sonic Technology | Upto 30000 VPM | 3 Modes | Smart Quad Timer"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-NC9200-pic1.jpg?v=1739618143&width=2000",
+        "name"      : "Zeb NC9200",
+        "price"     : "₹ 3,599.00",
+        "product"   : "Cooling Pads / Stands",
+        "features"  : "140nm | Fan Speed controller | Supports upto 48.26 cm (19) Laptop"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/zeb-pixigo-A16-pic1.jpg?v=1734606818&width=2000",
+        "name"      : "Zeb Pixigo A16",
+        "price"     : "₹ 19,999.00",
+        "product"   : "Portable Monitor",
+        "features"  : "15.6' Anti-Glare Screen | Lightweight & Portable | 180° Adjustable Stand "
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Energipod27R3-pic1.jpg?v=1733221462&width=2000",
+        "name"      : "Zeb EnergiPod 27R3",
+        "price"     : "₹ 6,999.00",
+        "product"   : "Above 10000 MAh",
+        "features"  : "27000mAh | Rapid Charge | 100W Output | LED Display"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-HD201-pic1.jpg?v=1726052180&width=2000",
+        "name"      : "Zeb HD201",
+        "price"     : "₹ 2,999.00",
+        "product"   : "Hair Dryer",
+        "features"  : "2000W | Thermal Protection | Foldable Design | 2 Air flow speeds | 3 Level Heating"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Shaver-S-pic1.jpg?v=1725603447&width=2000",
+        "name"      : "Zeb Shaver S",
+        "price"     : "₹ 3,299.00",
+        "product"   : "Beard Shaver",
+        "features"  : "Upto 140 min | 4 Guides Combs | Fast Charge | Rounded Tip Blade"
+    }
+
+]

@@ -1,0 +1,39 @@
+[
+        {
+        "image"     : "//zebronics.com/cdn/shop/files/ZEB-WMSA-5A-pic-1_e9a40be5-f44b-4107-b92a-0e694c843877.jpg?v=1744025343&width=2000",
+        "name"      : "Zeb WMSA 5A",
+        "price"     : "₹ 24,999.00",
+        "product"   : "Washing Machines",
+        "features"  : "Dual Tub Design | Triple Wash Program | Dual Robust Motors | Magic Filter"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/ZEB-WMSA-4A-pic-1_820166fb-ab23-4dfb-9ee0-d652126bcc52.jpg?v=1744024986&width=2000",
+        "name"      : "Zeb WMSA 4A",
+        "price"     : "₹ 22,999.00",
+        "product"   : "Washing Machines",
+        "features"  : "Dual Tub Design | Easy to Move Design | End Cycle Buzzer | Dual Robust Motors"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/ZEB-WMSA-1A-pic-1_c79f22bc-845f-431d-bf5f-be7a19879a46.jpg?v=1745920379&width=2000",
+        "name"      : "Zeb WMSA 1A",
+        "price"     : "₹ 16,999.00",
+        "product"   : "Washing Machines",
+        "features"  : "Dual Tub Design | Dual Wash Program | Cuff and Collar Scrubbers | Dual Robust Motors"
+    },
+
+    {
+        "image"     : "//zebronics.com/cdn/shop/products/ZEB-Smartcam-102-pic1.jpg?v=1627991128&width=1200",
+        "name"      : "Zeb Smart Cam 102",
+        "price"     : "₹ 4,599.00",
+        "product"   : "Smart WiFi Cameras",
+        "features"  : "2.0 MP resolution | 2-way audio | 5 Meter IR Range"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-SP116-pic1.jpg?v=1693312073&width=1200",
+        "name"      : "Zeb SP116 (16A)",
+        "price"     : "₹ 2,990.00",
+        "product"   : "Smart Wifi Plug",
+        "features"  : "16A output |  Child Safety | Smart Control | Scheduled Control"
+    }
+
+]

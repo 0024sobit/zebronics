@@ -1,0 +1,44 @@
+[
+        {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Pixaplay-62-pic-1.jpg?v=1748858787&width=2000",
+        "name"      : "Zeb PixaPlay 62",
+        "price"     : "₹ 12,999.00",
+        "product"   : "LED Projector",
+        "features"  : "FHD 1080p (Native) | Smart Projector | 3000 Lumens | Built in Speaker"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-55G1-Pro-Pic-1_fd347fbb-4e4d-4d96-906c-e6157e5e8862.jpg?v=1747229299&width=2000",
+        "name"      : "Zeb 55G1 Pro",
+        "price"     : "₹ 92,999.00",
+        "product"   : "LED TV",
+        "features"  : "55' Google TV| 3840*2160 UHD | Dolby Audio | Frameless "
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-55G1-pic-1.jpg?v=1745490938&width=2000",
+        "name"      : "Zeb 55G1",
+        "price"     : "₹ 84,999.00",
+        "product"   : "LED TV",
+        "features"  : "55' Google TV | 3840 x 2160 | Dolby audio | Dual band Wi-Fi "
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-43G2-pic-1.jpg?v=1745923304&width=2000",
+        "name"      : "Zeb 43G2",
+        "price"     : "₹ 58,999.00",
+        "product"   : "LED TV",
+        "features"  : "43' Google TV | 3840 x 2140 UHD | 4k QLED | Dolby Audio"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-PixaplayPro500-pic1.jpg?v=1738755303&width=2000",
+        "name"      : "Zeb PixaPlay Pro 500",
+        "price"     : "₹ 149,999.00",
+        "product"   : "LED Projector",
+        "features"  : "Ultra Short Throw Projector | 12500 Lumens | Air Mouse | FHD 1080p (Native)"
+    },
+    {
+        "image"     : "//zebronics.com/cdn/shop/files/Zeb-Pixaplay63-pic1.jpg?v=1738669879&width=2000",
+        "name"      : "Zeb PixaPlay 63",
+        "price"     : "₹ 20,999.00",
+        "product"   : "LED Projector",
+        "features"  : " FHD 1080p (Native) |Smart Projector | 5000 Lumens | 200° Tilt Mechanism"
+    }
+]
