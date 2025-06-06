@@ -281,4 +281,3 @@ document.addEventListener('DOMContentLoaded', initSlideshow);
 
 
 
-' dfd f dfcx c cx sd f d';
