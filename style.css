@@ -13,6 +13,7 @@
 }
 
 body{
+    box-sizing: border-box;
     background-color: rgb(241,241,241);
     color: rgb(39,39,39);
     letter-spacing: 0.0em;
@@ -21,6 +22,32 @@ body{
     height: 42.39px;
     border: 0 solid rgb(39,39,39)/.12;
     display: block;
+}
+.top-text{
+    overflow: clip visible;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+}
+.texttopscrol span{
+    padding: 0 40px;
+    font-size: 14px ;
+    font-family: ftwo;
+    line-height: 22.4px;
+}
+.texttopscrol{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 22.4px;
+    animation: topan 70s linear infinite;
+}
+@keyframes topan{
+    0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 .onepad{
     background: rgb(26,26,26);
@@ -113,27 +140,66 @@ body{
 .partonepad{
     background: linear-gradient(60deg, rgba(39, 39, 39, 1), rgba(23, 29, 33, 1) 98%);
     padding-inline-start:  max(1.25rem, 50% - 1600px / 2);
-    padding-block-end: 2.25rem;
+    padding-block-end: 32px;
     /* padding-inline-end: max(20px, 50% - 800px); */
-    padding-inline-end: max(23px, 50% - 645px);
+    padding-inline-end: 20px;
     position: relative;
 }
 .slideshow{
-    animation: none;
+    /* animation: none; */
+    position: relative;
+}
+.number{
+    right: 40px;
+    z-index: 1;
+    position: absolute;
+    bottom: 56px;
+}
+.numberdots{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.numbtn{
+    color: rgba(255, 255, 255, 0.7);
+    border-color: rgba(255, 255, 255, 0.3);
+    width: 2rem;
+    height: 2rem;
+    place-items: center;
+    font-weight: bold;
+    display: grid;
+    will-change: transform;
+    border-radius: 100%;
+    background-color: transparent;
+    -webkit-appearance: button;
+    background-image: none;
+    cursor: pointer;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+    font-weight: bold;
+    font-family: ftwo;
+    font-size: 14px;
+    line-height: 22.4px;
 }
 .slidebox{
-    /* opacity: 0;
-    visibility: hidden;
-    z-index: 0; */
      opacity: 1;
     visibility: visible;
     z-index: 1;
     position: relative;
+    display: none;
+    animation: fade 1s ease-in-out;
+}
+
+.slidebox.active{
+    display: block;
+}
+@keyframes fade {
+    from{ opacity: 0;}
+    to{ opacity: 1;}
 }
 .slidemedia {
     max-width: 700px;
     inset: 0 0 0 / 0 0;
-    /* border-radius: 0.625rem; */
     display: grid;
     position: relative;
     overflow: hidden;
@@ -144,6 +210,7 @@ body{
     column-gap: 1.25rem;
 }
 .picture {
+    display: block;
     border-block-start: 0;
     height: 100%;
     object-fit: cover;
@@ -1259,9 +1326,14 @@ footer{
 .gray{
     color: white;
 }
+.descpitchure{
+    display: none;
+}
+.descpitch{
+    display: none;
+}
 
-
-@media (max-width: 375px){
+@media (min-width: 375px){
     .headpad{
         gap: 28px;
     }
@@ -1348,7 +1420,7 @@ footer{
     }
 }
 
-@media (max-width: 425px){
+@media (min-width: 425px){
     .headpad{
         width: 100vw;
     }
@@ -1459,3 +1531,271 @@ footer{
         gap: 33px;
     }
 }
+
+
+@media (min-width: 700px) {
+    .sectionone{
+        height: 52px;
+    }
+    .zebhead{
+        position: relative;
+        height: 70px;
+        background-color: #191e21;
+    }
+    .headpad{
+        width: 100vw;
+        padding: 24px 32px;
+    }
+    .search{
+        position: absolute;
+        right: 32px;
+    }
+    .zebronics{
+        margin: 0;
+    }
+    .zebronics img{
+        width: 145px;
+    }
+    .partonepad{
+        padding: 0 32px 40px;
+    }
+    .slideshow{
+        height: auto;
+        position: relative;
+    }
+    .onepad{
+        padding: 15px 0;
+    }
+
+    .descpitchure{
+        display: block;
+        transform-origin: top;
+        overflow-wrap: anywhere;
+        object-fit: cover;
+        object-position: center;
+        grid-area: 1 / 1 / span 3 / span 3;
+        place-self: stretch stretch ;
+        width: 100%;
+        min-height: 100%;
+        position: relative;
+        display: grid;
+        height: auto;
+    }
+    .imgone img{
+        width: 100%;
+        height: 346.38px;
+        object-fit: cover;
+        grid-area: 1 / 1 / span 3 / span 3;
+        border-radius: 10px;
+    }
+    .imgtwo img{
+        width: 100%;
+        height: 346.38px;
+        object-fit: cover;
+        grid-area: 1 / 1 / span 3 / span 3;
+        border-radius: 10px;
+    }
+    .imgthree img{
+        width: 100%;
+        height: 273.97px;
+        object-fit: cover;
+        grid-area: 1 / 1 / span 3 / span 3;
+        border-radius: 10px;
+    }
+    .imgfour img{
+        width: 100%;
+        height: 313.56px;
+        object-fit: cover;
+        grid-area: 1 / 1 / span 3 / span 3;
+        border-radius: 10px;
+    }
+    .imgfive img{
+        width: 100%;
+        height: 247.97px;
+        object-fit: cover;
+        grid-area: 1 / 1 / span 3 / span 3;
+        border-radius: 10px;
+    }
+    .picture{
+        display: none;
+    }
+    .slidemedia{
+        display: grid;
+        overflow: hidden;
+        place-items: center;
+        gap: 3rem 2rem;
+    }
+    .scrolpad{
+        padding: 50px 0;
+    }
+    .scrolling-text{
+        font-size: 77px;
+    }
+    .threepad{
+        padding: 0 32px 57px;
+    }
+    .sectionstack{
+        gap: 48px 48px;
+    }
+    .h2{
+        font-size: 28px;
+    }
+    .inlinescrol{
+        gap: 24px;
+        margin-inline-end: -30px;
+    }
+    .boxx{
+        width: 22vw;
+        gap: 1rem;
+        padding: 2.5rem;
+        padding-bottom: 24px;
+    }
+    .sound{
+        /* margin-block-end: calc(-1 * 1rem); */
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .partfourpad img {
+        object-position:  75.4352% 53.615%;
+    }
+    .partfivepad{
+        padding: 56px 32px;
+        padding-top: 52px;
+    }
+    .collectionlist{
+        gap: 24px;
+        grid: auto / auto-flow 36vw;
+    }
+    .fivepara p{
+        font-size: 28px;
+    }
+    .fivepara{
+        top: 66.7%;
+    }
+    .partsixpad{
+        padding: 42px 32px 40px;
+    }
+    .all{
+        font-size: 15px;
+    }
+    .sixhead{
+        gap: 16px;
+    }
+    .productlist{
+        grid: auto / auto-flow 36vw;
+        gap: 48px 24px;
+    }
+    .new{
+        top: 1rem;
+        left: 1rem;
+    }
+    .new span{
+        font-size: 11px;
+        padding: 4px 0.5rem;
+    }
+    .productpara{
+        gap: 3px;
+        padding: 15.5px 20px 86px;
+    }
+    .pname{
+        font-size: 15px;
+    }
+    .pprice{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .small{
+        font-size: 12.5px;
+        line-height: 20px;
+        letter-spacing: 0.5;
+
+    }
+    .productpara p {
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: -1px;
+    }
+    .justscrol{
+        transform: translateY(2px);
+    }
+    .articlepad{
+        padding-top: 58px;
+    }
+    .articlehead{
+        gap: 17px;
+    }
+    .artline{
+        transform: translateY(2px);
+    }
+    .audiopad{
+        padding-top: 58px;
+    }
+    .audiopara{
+        padding: 15.5px 20px 62px;
+    }
+    .audiopara.productpara p{
+        margin-top: 0px;
+    }
+    .audiopara small{
+        font-size: 12.5px;
+    } 
+    .vediosec{
+        padding-top: 16px;
+    }
+    .vediopad{
+        padding: 16.5px 20px 20px;
+    }
+    .itpad{
+        padding: 58px 32px 56px;
+    }
+    .ithead{
+        gap: 16px;
+    }
+    .itproduct{
+        padding: 16px 20px 142px;
+    }
+    .lifepara{
+        padding: 16px 20px 88px;
+    }
+    .lifepad{
+        padding-bottom: 56px;
+    }
+    .smartpad{
+        padding: 16px 20px 21px;
+    }
+    .sevenpad{
+        padding-inline-start: 32px;
+        padding-inline-end: 32.3px;
+        padding-top: 58px;
+        padding-bottom: 55px;
+    }
+    .sevenboxlike{
+        gap: 2.21px;
+    }
+    .sevenimg img{
+        aspect-ratio: 210.58 / 259.40;
+        object-fit: cover;
+    }
+    .home{
+        font-size: 105px;
+    }
+    .eightpad{
+        padding: 0px 26px 56px 26px;
+    }
+    .h4{
+        font-size: 20px;
+    }
+    .hometeator{
+        margin-bottom: 21px;
+    }
+    .pitch{
+        display: none;
+    }
+    .descpitch{
+        display: block;
+    }
+    .descpitch img{
+        width: 100%;
+    }
+}
+

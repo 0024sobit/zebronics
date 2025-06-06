@@ -15,7 +15,6 @@ if (fiveScrollContainer && fiveScrollLine) {
 }
 
 
-'ss d  f sdfd'
 
 
 window.addEventListener('scroll', checkScroll);
@@ -86,7 +85,7 @@ function audioData(products) {
           <div class="productimg">
             <img src="${product.image}" alt="">
           </div>
-          <div class="productpara">
+          <div class="productpara audiopara">
             <div class="nameprice">
                <span class="pname">${product.name}</span>
               <span class="pprice">${product.price}</span>
@@ -156,7 +155,7 @@ function itData(products) {
           <div class="productimg">
             <img src="${product.image}" alt="">
           </div>
-          <div class="productpara">
+          <div class="productpara itproduct">
             <div class="nameprice">
               <span class="pname">${product.name}</span>
               <span class="pprice">${product.price}</span>
@@ -191,7 +190,7 @@ function lifeData(products) {
           <div class="productimg">
             <img src="${product.image}" alt="">
           </div>
-          <div class="productpara">
+          <div class="productpara lifepara">
             <div class="nameprice">
               <span class="pname">${product.name}</span>
               <span class="pprice">${product.price}</span>
@@ -242,3 +241,44 @@ function smartData(products) {
 }
 
 
+
+function initSlideshow() {
+  const slides = document.querySelectorAll('.slidebox');
+  const buttons = document.querySelectorAll('.numbtn');
+  let currentIndex = 0;
+  let timer;
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('active', i === index); // fixed syntax error here
+    });
+    buttons.forEach((btn, i) => {
+      btn.classList.toggle('active', i === index);
+    });
+  }
+
+  function slideTo(index) {
+    clearInterval(timer);
+    currentIndex = index;
+    showSlide(currentIndex);
+    timer = setInterval(nextSlide, 7000);
+  }
+
+  function nextSlide() {
+    slideTo((currentIndex + 1) % slides.length);
+  }
+
+  buttons.forEach((btn, i) => {
+    btn.addEventListener('click', () => slideTo(i));
+  });
+
+  showSlide(currentIndex);
+  timer = setInterval(nextSlide, 7000);
+}
+
+
+document.addEventListener('DOMContentLoaded', initSlideshow);
+
+
+
+' dfd f dfcx c cx sd f d';
