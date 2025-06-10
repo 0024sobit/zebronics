@@ -17,6 +17,7 @@ body{
     background-color: rgb(241,241,241);
     color: rgb(39,39,39);
     letter-spacing: 0.0em;
+    overflow-x: hidden;
 }
 .sectionone{
     height: 42.39px;
@@ -349,6 +350,7 @@ body{
     align-items: start;
     scrollbar-width: none;
     margin-inline-end: -20px;
+    padding-inline-end: 20px;
 }
 .boxone{
     background-color: rgb(255, 255, 255);
@@ -1335,6 +1337,15 @@ footer{
 .gametwo{
     display: none;
 }
+.scrolbtn{
+    display: none;
+}
+.officialdesc{
+    display: none;
+}
+.deschead{
+    display: none;
+}
 
 @media (min-width: 375px){
     .headpad{
@@ -1645,7 +1656,8 @@ footer{
     }
     .inlinescrol{
         gap: 24px;
-        margin-inline-end: -30px;
+        /* margin-inline-end: -30px;
+        padding-inline-end: 30px; */
     }
     .boxx{
         width: 22vw;
@@ -2110,6 +2122,7 @@ footer{
         gap: 23.9px;
     }
     .boxx{
+        /* width: 15.859vw; */
         width: 16.159vw;
         gap: 17px;
     }
@@ -2117,12 +2130,12 @@ footer{
         object-position: 75.4352% 53.615%;
     }
     .playbtn{
-        top: 46%;
-        right: 49%;
+        top: 42%;
+        right: 47.4%;
     }
     .playbtn svg{
-        width: 3rem;
-        height: 3rem;
+        width: 5rem;
+        height: 5rem;
     }
     .partfivepad{
         padding: 60px 48px;
@@ -2135,11 +2148,11 @@ footer{
         top: 65.7%;
     }
     .partfivepad {
-        padding: 60px 48px 78px;
+        padding: 60px 48px 54px;
         padding-top: 60px;
     }
     .justpad{
-        padding: 42px 32px 40px;
+        padding: 74px 48px 63px;
     }
     .productpara{
         gap: 3.5px;
@@ -2147,5 +2160,509 @@ footer{
     }
     .productlist{
         grid: auto / auto-flow 16.16vw;
+    }
+    .justpara{
+        padding-bottom: 118px;
+    }
+    .linemar{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 100%;
+    }
+    .linescrol{
+         width: 75.2%;
+    }
+    .scrolbtn{
+        display: flex;
+        gap: 1rem;
+    }
+    .prevbtn{
+        display: grid; 
+        border: none;
+        
+    }
+    .sronly{
+        transform: rotate(180deg);
+        pointer-events: none;
+        display: grid;
+        padding: 18px;
+        border-radius: 9999px;
+        border: 1px solid rgb(215, 209, 209);
+    }
+    .nextbtn{
+        display: grid;
+        border: none;
+    }
+    .onlysr{
+        pointer-events: none;
+        display: grid;
+        padding: 18px;
+        border-radius: 9999px;
+        border: 1px solid rgb(215, 209, 209);
+    }
+    .sronly svg{
+        width: 14px;
+        height: 14px;
+    }
+    .onlysr svg{
+        width: 14px;
+        height: 14px;
+    }
+    .articlepad{
+        padding: 88px 48px 62px;
+    }
+    .articlehead{
+        gap: 15.5px;
+    }
+    .audiopad{
+        padding: 90px 48px 40px;
+    }
+    .audiopara{
+        padding: 17px 20px 74px;
+        gap: 3.5px;
+    }
+    .audiopara small{
+        line-height: 20px;
+    }
+    .vediosec{
+        padding: 24px 48px 78px;
+    }
+    .vediopad{
+        padding: 16px 20px 20px;
+    }
+    .itpad {
+        padding: 74px 48px 56px;
+    }
+    .itproduct{
+        padding: 16px 20px 142px;
+    }
+    .itline{
+        display: none;
+    }
+    .lifepad{
+        padding: 8px 48px 78px;
+    }
+    .lifepara{
+        padding: 16px 20px 117px;
+    }
+    .smartpadd{
+        padding: 74px 48px 21px;
+    }
+    .smarthead{
+        gap: 17px;
+    }
+    .smartpad{
+        padding: 17px 20px 19px;
+    }
+    .smartline{
+        display: none;
+    }
+    .sevenpad {
+        padding-inline-start: 48px;
+        padding-inline-end: 48px;
+        padding-top: 44px;
+        padding-bottom: 65px;
+    }
+    .home{
+        font-size: 150px;
+        letter-spacing: -0.75px;
+    }
+    .hometeator{
+        margin-bottom: 30px;
+    }
+    .eightpad {
+        padding: 0px 26px 64px 26px;
+    }
+    .ninepara{
+        margin-top: -3px;
+    }
+    .tenpad {
+        padding: 60px 48px 64px;
+    }
+    .tenboxone{
+        height: 424px;
+    }
+    .tenboxone{
+        height: 100%;
+    }
+    .tenboxone .tenimg{
+        height: 424px;
+    }
+    .tenten{
+        height: 200px;
+        gap: 24px;
+    }
+    .tefour{
+        height: 200px;
+    }
+    .tenflex{
+        gap: 24px;
+    }
+    .tenflextwo{
+        gap: 24px;
+    }
+    .tenonep{
+        top: 82.4%;
+        left: 10.9%;
+    }
+    .tethree .tenpara {
+        left: 11.5%;
+        top: 74.5%;
+    }
+    .addpad{
+        max-width: 100%;
+        padding: 56px 48px;
+        padding-bottom: 51px;
+    }
+    .twelvegrid{
+        position: relative;
+    }
+    .gameh2{
+        position: absolute;
+        color: white;
+        z-index: 1;
+        top: 8%;
+        left: 1.7%;
+    }
+    .thirteenpad {
+        padding: 64px 48px 44px;
+    }
+    .thirdscroll {
+        grid: auto / auto-flow 36vw;
+    }
+    .thirdmain {
+        padding-bottom: 78px;
+    }
+    .presspad {
+        padding: 31px 48px 40px;
+        gap: 3rem;
+    }
+    .pressscrol{
+        grid: auto / auto-flow 16vw;
+    }
+    .fourteen{
+        padding: 20px 48px 64px;
+    }
+    .fourteenpad{
+        max-width: 100%;
+        padding: 56px 64px;
+    }
+    .qp{
+        margin-top: 24px;
+    }
+    .qbox{
+        padding: 20px 48px;
+    }
+    .footergrid{
+        margin: 0 48px;
+        padding-bottom: 62px;
+    }
+    .footerone{
+        display: flex;
+        /* gap: 82px; */
+        justify-content: space-between;
+    }
+    .footergri{
+        flex-wrap: nowrap;
+        gap: 81.4px;
+        justify-content: space-between;
+
+    }
+    .connectmain{
+        flex-basis: 33.3333%;
+    }
+    .boldul li{
+        line-height: 24px;
+    }
+    .boldul{
+        gap: 12px;
+    }
+    .footerbox{
+        gap: 24px;
+    }
+    .connect{
+        margin-bottom: 40px;
+    }
+    .label{
+        top: 4px;
+    }
+    .sendbtn {
+        top: 50%;
+    }
+    .socialmain{
+        margin-top: 23px;
+        gap: 42px;
+    }
+    .sendbtn button svg{
+        padding-right: 1px;
+        width: 6px;
+        height: 8px;
+    }
+    .headpad.fixed {
+        height: 78px;
+    }
+}
+
+@media (min-width: 1170px) {
+    .zebhead{
+        height: 72px;
+        align-items: center;
+        display: flex;
+    }
+    .headpad {
+        padding: 37px 48px 22px;
+        gap: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+    .menumain{
+        display: none;
+    }
+    .deschead{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .contents{
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+        list-style-type: none;
+    }
+    .navigation{
+        font-family: ftwo;
+        font-weight: bold;
+        align-items: center;
+        display: flex;
+        gap: 0.625rem;
+        font-size: 15px;
+        background-color: transparent;
+        border: none;
+        color: white;
+    }
+    .search{
+        right: 48px;
+        position: absolute;
+    }
+    .navigation svg{
+        margin-top: 4px;
+    }
+    .boxx{
+        width: 16.717vw;
+        gap: 20px;
+    }
+    .sound{
+        margin: 0 10px;
+    }
+    .collectionlist{
+        grid: auto / auto-flow 29.231vw;
+    }
+    .fivepara {
+        top: 71.5%;
+        margin: 0 10px;
+    }
+    .fivepara p{
+        line-height: 30.8px;
+    }
+    .sixhead{
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    .view{
+        align-items: end;
+    }
+    .productlist {
+        grid: auto / auto-flow 16.717vw;
+    }
+    small{
+        font-size: 12.5px;
+    }
+    .justpara {
+        padding-bottom: 141px;
+    }
+    .articlepad {
+        padding: 89px 48px 62px;
+    }
+    .audiopara{
+        padding-bottom: 98px;
+    }
+    .audiostack{
+        gap: 49px;
+    }
+    .itproduct {
+        padding: 16px 20px 141px;
+    }
+    .lifepara {
+        padding: 16px 20px 118px;
+    }
+    .sevenpad{
+        padding-top: 42px;
+    }
+    .sevenimg img {
+        aspect-ratio: 355.61 / 439.38;
+        object-fit: cover;
+    }
+    .home {
+        font-size: 175.5px;
+        letter-spacing: -0.8775px;
+    }
+    .hometeator {
+        margin-bottom: 35px;
+    }
+    .choose {
+        margin-top: 34.5px;
+    }
+    .guide{
+        margin-top: 32px;
+        margin-bottom: 0;
+    }
+    .tenboxone .tenimg {
+        height: 492px;
+    }
+    .tenten {
+        height: 234px;
+        gap: 24px;
+    }
+    .tefour {
+        height: 234px;
+    }
+    .tenonep {
+        top: 85%;
+        left: 9.2%
+    }
+        .tetwo .tenpara {
+        left: 9.5%;
+        top: 78%;
+    }
+    .tethree .tenpara {
+        left: 9.5%;
+        top: 78%;
+    }
+    .tefour .tenpara {
+        left: 4.5%;
+        top: 78%;
+    }
+    .bold{
+        margin-top: 21px;
+    }
+    .addpad{
+        padding-bottom: 52px;
+    }
+    .gameh2{
+        top: 6.9%;
+        left: 1.4%;
+    }
+    .thirdscroll {
+        grid: auto / auto-flow 29.229vw;
+    }
+    .thirdgrid {
+        gap: 47px;
+    }
+    .vstack {
+        gap: 13px;
+    }
+    .pressscrol {
+        grid: auto / auto-flow 16.717vw;
+    }
+    .fourteengrid{
+        display: flex;
+        position: relative;
+    }
+    .qone{
+        flex: 1;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+    .qbox{
+        width: 37.692vw;
+    }
+    .opening{
+        position: absolute;
+        bottom: 29px;
+    }
+    .qp {
+        margin-top: 32px;
+    }
+    .footergri{
+        gap: 119px;
+    }
+    .footergrid{
+        padding-bottom: 64px;
+    }
+    .headpad.fixed {
+        height: 79px;
+        padding: 30px 47px 23px;
+        color: black;
+    }
+    .headpad.fixed .navigation{
+        color: black;
+        align-items: center;
+    }
+    .headpad.fixed .search{
+        right: 54px;
+    }
+} 
+
+@media (min-width: 1440px) {
+    .scrolpad {
+        padding: 74px 0;
+    }
+    .boxx{
+        width: 13.993vw;
+    }
+    .h2{
+        font-size: 40px;
+    }
+    .inlinescrol{
+        gap: 24.3px;
+    }
+    .sound {
+        margin: 0 12px;
+    }
+    .threepad {
+        padding: 0 48px 80.02px;
+    }
+    .collectionlist{
+        grid: auto /auto-flow 29.653vw;
+    }
+    .partfivepad{
+        padding: 76px 48px 54px;
+    }
+    .fivepara p {
+        line-height: 44px;
+        letter-spacing: -0.2px;
+        font-size: 40px;
+    }
+    .justpad {
+        padding: 90px 48px 63px;
+    }
+    .productlist {
+        grid: auto / auto-flow 17.124vw;
+    }
+    .inlinescrol{
+        margin-inline-end: 0;
+    }
+    .fivescroll{
+        padding: 0;
+        margin: 0;
+    }
+    .sixscroll {
+        margin-inline-end: 0%;
+    }
+    .thirdscroll{
+        margin-inline-end: 0;
+    }
+    .pressscrol{
+        margin-inline-end: 0;
+    }
+    .justpara{
+        padding: 20px 32px 97px;
+    }
+    .articlepad {
+        padding: 105px 48px 62px;
     }
 }

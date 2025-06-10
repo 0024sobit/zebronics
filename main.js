@@ -1,19 +1,20 @@
 
-const fiveScrollContainer = document.querySelector('#sixcontainer');
-const fiveScrollLine = document.querySelector('.scrolll');
+document.querySelectorAll('#sixcontainer').forEach((scrollContainer) => {
+    const parent = scrollContainer.closest('section'); 
+    const scrollLine = parent.querySelector('.scrolll');
 
-if (fiveScrollContainer && fiveScrollLine) {
-    fiveScrollContainer.addEventListener('scroll', () => {
-        const scrollLeft = fiveScrollContainer.scrollLeft;
-        const maxScroll = fiveScrollContainer.scrollWidth - fiveScrollContainer.clientWidth;
+    if (scrollLine) {
+        scrollContainer.addEventListener('scroll', () => {
+            const scrollLeft = scrollContainer.scrollLeft;
+            const maxScroll = scrollContainer.scrollWidth - scrollContainer.clientWidth;
 
-        const scrollPercent = maxScroll > 0 ? scrollLeft / maxScroll : 0;
-        const barWidth = 25 + (scrollPercent * 75); 
+            const scrollPercent = maxScroll > 0 ? scrollLeft / maxScroll : 0;
+            const barWidth = 25 + (scrollPercent * 75);
 
-        fiveScrollLine.style.width = barWidth + '%';
-    });
-}
-
+            scrollLine.style.width = barWidth + '%';
+        });
+    }
+});
 
 
 
@@ -50,7 +51,7 @@ function headPhone(alldata) {
                         <img src="${product.image}"
                             alt="">
                     </div>
-                    <div class="productpara">
+                    <div class="productpara justpara">
                         <div class="nameprice">
                             <span class="pname">${product.name}</span>
                             <span class="pprice">${product.price}</span>
@@ -170,6 +171,7 @@ function itData(products) {
   });
 }
 
+
 fetch('mainfive.json')
   .then(res => res.json())
   .then(data => {
@@ -250,7 +252,7 @@ function initSlideshow() {
 
   function showSlide(index) {
     slides.forEach((slide, i) => {
-      slide.classList.toggle('active', i === index); // fixed syntax error here
+      slide.classList.toggle('active', i === index); 
     });
     buttons.forEach((btn, i) => {
       btn.classList.toggle('active', i === index);
@@ -283,5 +285,4 @@ document.addEventListener('DOMContentLoaded', initSlideshow);
 
 
 
-
-
+' ewr  we r we';
