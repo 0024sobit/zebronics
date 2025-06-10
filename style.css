@@ -2820,6 +2820,7 @@ footer{
     }
     .nineimg{
         margin-inline-end: -20px;
+        margin-inline-start: -20px;
     }
     .elevenbox{
         margin-inline-end: -20px;
@@ -2842,5 +2843,97 @@ footer{
     .partfourpad img{
         aspect-ratio: 1900 / 1068.75;
     }
-
+    .partfivepad {
+        padding: 76px 150px 54px;
+    }
+    .collectionlist{
+        grid: auto / auto-flow 27.228vw;
+    }
+    .fivepara {
+        margin: 0 29px;
+    }
+    .fivepara{
+        top: 76.5%;
+    }
+    .justpad {
+        padding: 90px 150px 63px;
+    }
+    .productlist {
+        grid: auto / auto-flow 15.832vw
+    }
+    .articlepad {
+        padding: 105px 150px 62px;
+    }
+    .audiopad {
+        padding: 108px 150px 40px;
+    }
+    .vediosec {
+        padding: 40px 150px 78px;
+    }
+    .itpad {
+        padding: 90px 150px 56px;
+    }
+    .itproduct {
+        padding: 20px 32px 97px;
+    }
+    .lifepad {
+        padding: 24px 150px 78px;
+    }
+    .smartpadd {
+        padding: 91px 150px 21px;
+    }
+    .sevenpad{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+    .eightpad {
+        padding: 0px 150px 77px 150px;
+    }
+    .home{
+        font-size: 240px;
+    }
+    .hometeator {
+        margin-bottom: 48px;
+    }
+    .descpitch img {
+        height: 560px;
+    }
+    .tenpad {
+        padding: 76px 150px 81px;
+    }
+    .tenboxone .tenimg {
+        height: 605px;
+    }
+    .tenten{
+        height: 291px;
+    }
+    .tefour{
+        height: 290px;
+    }
+    .elevenbox img {
+        height: 560px;
+    }
+    .addpad{
+        padding: 72px 150px 69px;
+    }
+    .twelveimg {
+        margin-inline-end: -32px;
+        margin-inline-start: -32px;
+    }
+    .gameh2 {
+        top: 4.2%;
+        left: 6.4%;
+    }
+    .thirteenpad {
+        padding: 80px 150px 44px;
+    }
+    .thirdgrid {
+        gap: 48px;
+    }
+    .thirdscroll {
+        grid: auto / auto-flow 27.228vw
+    }
+        .thirdmain {
+        padding-bottom: 103px;
+    }
 }
