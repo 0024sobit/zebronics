@@ -2665,4 +2665,182 @@ footer{
     .articlepad {
         padding: 105px 48px 62px;
     }
+    .fivepara{
+        margin: 0 28px;
+    }
+    .audiopad {
+        padding: 108px 48px 40px;
+    }
+    .audiopara{
+        padding: 20px 32px 98px;
+    }
+    .vediosec {
+        padding: 40px 48px 78px;
+    }
+    .vediopad {
+        padding: 20px 32px 32px;
+    }
+    .itpad {
+        padding: 90px 48px 56px;
+    }
+    .itproduct {
+        padding: 20px 32px 154px;
+    }
+    .lifepad {
+        padding: 24px 48px 78px;
+    }
+    .lifepara {
+        padding: 20px 32px 97px;
+    }
+    .smartpadd {
+        padding: 91px 48px 21px;
+    }
+    .smartpad {
+        padding: 21px 32px 30px;
+    }
+    .sevenpad {
+        padding-top: 59px;
+    }
+    .home{
+        font-size: 216px
+    }
+    .sevenpad{
+        padding-bottom:79.5px;
+    }
+    .hometeator {
+        margin-bottom: 44px;
+    }
+    .h4{
+        font-size: 24px;
+        line-height: 32.2px;
+        letter-spacing: -0.12px;
+    }
+    .eightpad {
+        padding: 0px 26px 78px 26px;
+    }
+    .descpitch img{
+        height: 500px;
+    }
+    .h1{
+        font-size: 48px;
+        transform: translateY(4px);
+    }
+    .choose{
+        padding-top: 10px;
+    }
+    .tenpad {
+        padding: 75px 48px 81px;
+    }
+    .tenboxone .tenimg {
+        height: 600px;
+    }
+    .tenten {
+        height: 288px;
+        gap: 23px;
+    }
+    .tefour {
+        height: 288px;
+    }
+    .tenpara p {
+        font-size: 24px;
+    }
+    .elevenbox img {
+        height: 500px;
+    }
+    .addpad{
+        padding-top: 63px;
+        padding-bottom: 61px;
+    }
+    .gameh2 {
+        top: 5.6%;
+        left: 1.1%;
+    }
+    .thirteenpad {
+        padding: 81px 48px 44px;
+    }
+    .thirdscroll {
+        grid: auto / auto-flow 29.999vw
+    }
+    .thirdbox {
+        padding: 40px;
+        gap: 24px;
+    }
+    .thirdmain {
+        padding-bottom: 79px;
+    }
+    .presspad{
+        padding: 46px 48px 40px;
+    }
+    .pressscrol {
+        grid: auto / auto-flow 13.993vw;
+    }
+    .fourteen {
+        padding: 35px 48px 80px;
+    }
+    .fourteenpad{
+        padding: 64px 72px;
+    }
+    .qbox {
+        width: 39.167vw
+    }
+    .fourteengrid{
+        gap: 4.5rem;
+    }
+    .opening{
+        bottom: 2px;
+    }
+    .footergri {
+        gap: 179px;
+    }
+    .footergrid{
+        padding-top: 65px;
+        padding-bottom: 63px;
+    }
+    .connect{
+        gap: 23px;
+    }
+    .formcontrol{
+        width: 400px;
+    }
+    .headpad{
+        gap: 40px;
+    }
+    .contents{
+        gap: 40px;
+    }
+    .headpad.fixed{
+        height: 80px;
+    }
+}
+
+@media (min-width: 1900px) {
+    .fourlike{
+        margin-inline-end: -20px;
+        margin-inline-start: -20px;
+    }
+    .nineimg{
+        margin-inline-end: -20px;
+    }
+    .elevenbox{
+        margin-inline-end: -20px;
+    }
+    .twelveimg{
+        margin-inline-end: -20px;
+    }
+    .search{
+        right: 150px;
+    }
+    .headpad{
+        padding: 37px 150px 22px;
+    }
+    .threepad {
+        padding: 0 150px 80.02px;
+    }
+    .boxx {
+        width: 12.982vw
+    }
+    .partfourpad img{
+        aspect-ratio: 1900 / 1068.75;
+    }
+
 }
