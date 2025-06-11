@@ -2936,4 +2936,37 @@ footer{
         .thirdmain {
         padding-bottom: 103px;
     }
+    .sixscroll{
+        margin-inline-end: 0;
+    }
+    .imgone img{
+        height: 571.42px;
+    }
+    .partonepad{
+        padding: 0 150px 72px;
+    }
+    .imgtwo img{
+        height: 571.42px;
+    }
+    .imgthree img{
+        height: 571.42px;
+    }
+    .imgfour img{
+        height: 571.42px;
+    }
+    .imgfive img{
+        height: 571.42px;
+    }
+    .number{
+        right: 206px;
+        bottom: 128px;
+    }
+    .slidepara{
+        place-self: center start;
+        max-width: 500px;
+        text-align: left;
+    }
+    .ptwo{
+        font-size: 48px;
+    }
 }
