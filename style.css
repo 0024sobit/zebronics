@@ -2836,9 +2836,17 @@ footer{
     }
     .threepad {
         padding: 0 150px 80.02px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .sectionstack{
+        max-width: 1600px;
     }
     .boxx {
-        width: 12.982vw
+        width: 12.982vw;
+        max-width: 12.982vw;
     }
     .partfourpad img{
         aspect-ratio: 1900 / 1068.75;
@@ -2865,26 +2873,27 @@ footer{
         padding: 105px 150px 62px;
     }
     .audiopad {
-        padding: 108px 150px 40px;
+        padding: 105px 150px 40px;
     }
     .vediosec {
         padding: 40px 150px 78px;
     }
     .itpad {
-        padding: 90px 150px 56px;
+        padding: 89px 150px 56px;
     }
     .itproduct {
-        padding: 20px 32px 97px;
+        padding: 20px 32px 98px;
     }
     .lifepad {
         padding: 24px 150px 78px;
     }
     .smartpadd {
-        padding: 91px 150px 21px;
+        padding: 90px 150px 22px;
     }
     .sevenpad{
         padding-left: 150px;
         padding-right: 150px;
+        padding-bottom: 85.5px;
     }
     .eightpad {
         padding: 0px 150px 77px 150px;
@@ -2899,7 +2908,7 @@ footer{
         height: 560px;
     }
     .tenpad {
-        padding: 76px 150px 81px;
+        padding: 76px 150px 80px;
     }
     .tenboxone .tenimg {
         height: 605px;
@@ -2925,7 +2934,7 @@ footer{
         left: 6.4%;
     }
     .thirteenpad {
-        padding: 80px 150px 44px;
+        padding: 81px 150px 44px;
     }
     .thirdgrid {
         gap: 48px;
@@ -2944,6 +2953,10 @@ footer{
     }
     .partonepad{
         padding: 0 150px 72px;
+        margin: 0 auto;
+        align-items: center;
+        display: flex;
+        justify-content: center;
     }
     .imgtwo img{
         height: 571.42px;
@@ -2963,10 +2976,102 @@ footer{
     }
     .slidepara{
         place-self: center start;
-        max-width: 500px;
+        max-width: 600px;
         text-align: left;
+        margin-left: 50px;
     }
     .ptwo{
-        font-size: 48px;
+        font-size: 64px;
     }
+    .fourlike {
+        margin-inline-end: -13px;
+        margin-inline-start: -12px;
+    }
+    .justpara {
+        padding: 20px 32px 98px;
+    }
+    .audiopara {
+        padding: 20px 32px 99px;
+    }
+    .nineimg {
+        margin-inline-end: -13px;
+        margin-inline-start: -12px;
+    }
+    .elevenbox{
+        margin-inline-end: -13px;
+        margin-inline-start: -12px; 
+    }
+    .twelveimg {
+        margin-inline-end: -25px;
+        margin-inline-start: -24px;
+    }
+    .presspad {
+        padding: 46px 150px 40px;
+    }
+    .pressscrol {
+        grid: auto / auto-flow 12.982vw
+    }
+    .fourteen {
+        padding: 35px 150px 80px;
+    }
+    .qbox {
+        width: 35.789vw
+    }
+    .fourteen {
+        padding: 37px 150px 80px;
+    }
+    .fourteenpad {
+        padding: 72px 80px;
+    }
+    .qp {
+        margin-top: 31px;
+    }
+    .opening {
+        bottom: 47px;
+    }
+    .footergrid {
+        padding-top: 63px;
+        padding-bottom: 63px;
+        margin: 0 150px;
+    }
+    .footergri {
+        gap: 236px;
+        margin-top: 1px;
+    }
+
+}
+
+@media{
+    .boxx{
+        width: 9.635vw;
+        max-width: 9.635vw;
+    }
+    .collectionlist {
+        grid: auto / auto-flow 20.208vw;
+    }
+    .partfivepad{
+        padding-inline: 479.5px;
+    }
+    .fivescroll{
+        margin-inline: -472.5px ;
+        padding-inline: 472.5px;
+    }
+    .justpad {
+        padding: 90px 0px 63px 479.5px;
+    }
+    .sectionstack{
+        max-width: 100%;
+    }
+    .sixscroll {
+        margin-inline-end: 0;
+        margin-inline-start: -470px;
+        padding-inline-start: 470px;
+    }
+    .productlist {
+        grid: auto / auto-flow 11.75vw
+    }
+    .articlepad {
+        padding: 105px 472.5px 62px;
+    }
+    
 }
