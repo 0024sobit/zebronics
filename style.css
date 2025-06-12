@@ -293,7 +293,7 @@ body{
     display: inline-block;
     font-size: 3.75rem;
     padding-left: 100%; 
-    animation: scroll-left 30s linear infinite;
+    animation: scroll-left 100s linear infinite;
     letter-spacing: -0.005rem;
     font-weight: 700;
     -webkit-text-stroke: 1px currentColor;
