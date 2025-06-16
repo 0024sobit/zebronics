@@ -271,11 +271,11 @@ function initSlideshow() {
   }
 
   buttons.forEach((btn, i) => {
-    btn.addEventListener('click', () => slideTo(i));
+    btn.addEventListener('click', () => slideTo(i));  
   });
 
   showSlide(currentIndex);
-  timer = setInterval(nextSlide, 7000);
+  timer = setInterval(nextSlide, 7500);
 }
 
 
