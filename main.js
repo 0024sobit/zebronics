@@ -275,12 +275,11 @@ function initSlideshow() {
   });
 
   showSlide(currentIndex);
-  timer = setInterval(nextSlide, 7500);
+  timer = setInterval(nextSlide, 7000);
 }
 
 
 document.addEventListener('DOMContentLoaded', initSlideshow);
-
 
 
 
