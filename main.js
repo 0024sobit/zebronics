@@ -263,7 +263,7 @@ function initSlideshow() {
     clearInterval(timer);
     currentIndex = index;
     showSlide(currentIndex);
-    timer = setInterval(nextSlide, 7000);
+    timer = setInterval(nextSlide, 7500);
   }
 
   function nextSlide() {
