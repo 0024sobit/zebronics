@@ -275,7 +275,7 @@ function initSlideshow() {
   });
 
   showSlide(currentIndex);
-  timer = setInterval(nextSlide, 7000);
+  timer = setInterval(nextSlide, 7500);
 }
 
 
@@ -285,3 +285,5 @@ document.addEventListener('DOMContentLoaded', initSlideshow);
 
 
 
+'sd f sd f sd fs';
+' re  wer'
