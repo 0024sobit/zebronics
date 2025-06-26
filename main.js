@@ -275,7 +275,7 @@ function initSlideshow() {
   });
 
   showSlide(currentIndex);
-  timer = setInterval(nextSlide, 7030);
+  timer = setInterval(nextSlide, 7000);
 }
 
 
