@@ -263,7 +263,7 @@ function initSlideshow() {
     clearInterval(timer);
     currentIndex = index;
     showSlide(currentIndex);
-    timer = setInterval(nextSlide, 7500);
+    timer = setInterval(nextSlide, 7000);
   }
 
   function nextSlide() {
@@ -275,11 +275,9 @@ function initSlideshow() {
   });
 
   showSlide(currentIndex);
-  timer = setInterval(nextSlide, 7500);
+  timer = setInterval(nextSlide, 7000);
 }
 
 
 document.addEventListener('DOMContentLoaded', initSlideshow);
-
-
 
